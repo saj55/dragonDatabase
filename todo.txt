@@ -1,0 +1,1 @@
+Change mainLoop into a session class
