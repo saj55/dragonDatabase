@@ -1,12 +1,12 @@
 #include <iostream>
-#include "loop.hpp"
+#include "Session.hpp"
 #include <cstdlib>
 
 using std::cout;
 using std::endl;
 using std::cin;
 
-void mainLoop()
+void Session::mainLoop()
 {
  enum Options choice=add_a_table;
  while(true)

@@ -1,1 +1,2 @@
-Change mainLoop into a session class
+Change mainLoop into a session class X
+Add a table system - make it so that it doesnt inherit but you use a constructor in column class to aks about a number of columns and then you add them to your list in Table and column constructor creates the Columns only when you specify their type

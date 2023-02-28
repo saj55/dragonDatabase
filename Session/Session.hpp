@@ -6,5 +6,8 @@ enum Options
   show_a_table,sort_a_table,edit_a_table,import_table,export_table
 };
 
-
-void mainLoop();
+class Session{
+  
+  public:
+  void mainLoop();
+};

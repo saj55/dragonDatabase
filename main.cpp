@@ -1,11 +1,12 @@
 #include <iostream>
 #include <fstream>
-#include "./mainLoop/loop.hpp"
-
+#include "./Session/Session.hpp"
+#include "./Table/Table.hpp"
 
 using std::cout;
 
 int main()
 {
-  mainLoop();   
+  Session session;
+  session.mainLoop();  
 }
