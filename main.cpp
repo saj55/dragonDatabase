@@ -1,12 +1,17 @@
 #include <iostream>
+#include <list>
 #include <fstream>
-#include "./Session/Session.hpp"
 #include "./Table/Table.hpp"
 
 using std::cout;
+using std::cin;
+using std::endl;
+
 
 int main()
 {
-  Session session;
-  session.mainLoop();  
+  Table<int> tab;
+
+  
+  return 0;
 }

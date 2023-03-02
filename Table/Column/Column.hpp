@@ -10,5 +10,9 @@ class Column
   protected:
    list<T> column;
   public:
+   Column()
+   {
+    
+   }
    list<T> getColumn(){return column;}
 };
